@@ -10,14 +10,14 @@ const Main = () => {
             <p id="job">Software Developer</p>
         </div>
             <div className="icons">
-            <a href="https://www.linkedin.com">
+            <a href="https://www.linkedin.com/in/dejan-dosti%C4%87-45b8421a6/" target={'_blank'}>
                 <FaLinkedin size={40} style={{color: '#333'}} />
             </a>
-            <a href="https://www.github.com">
-            <FaGithub size={40} style={{color: '#333'}}/> 
+            <a href="https://www.github.com/dostic91" target={'_blank'}>
+            <FaGithub size={40} style={{color: '#333'}} /> 
             </a>
-            <a href="/">
-                <FaFile size={40} style={{color: '#333'}} />
+            <a href="/" target={'_blank'}>
+                <FaFile size={40} style={{color: '#333'}}  />
             </a>
         </div>
         </div>
