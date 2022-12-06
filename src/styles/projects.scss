@@ -3,7 +3,11 @@ $base-color: #333;
 $font: 'Montserrat', sans-serif;
 
 .projects {
-    font-family: $font;
-    text-align: center;
+    h3 {
+        font-family: $font;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+        color: $base-color;
+    }
 }
-

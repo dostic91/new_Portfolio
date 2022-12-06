@@ -1,9 +1,14 @@
 import React from "react";
+import Slider from "./slider/Slider";
+import '../styles/projects.scss'
 
 const Projects = () => {
     return (
-        <div>
-            
+        <div className="projects">
+            <h3>Projects</h3>
+            <div className="slideShow">
+            <Slider />
+        </div>
         </div>
     )
 }
