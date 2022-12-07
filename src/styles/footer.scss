@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+$base-color: #333;
+$font: 'Montserrat', sans-serif;
+
+.footer {
+    background-color: rgb(231, 225, 224);
+    font-family: $font;
+    color: $base-color;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    #contact {
+        text-decoration: underline;
+    }
+    #date {
+        padding-bottom: 5px;
+    }
+    .info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

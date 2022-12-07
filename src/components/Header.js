@@ -22,13 +22,13 @@ const Header =() => {
                         <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='/'>About</a>
+                        <a href='#about_part'>About Me</a>
                     </li>
                     <li>
-                        <a href='/'>Projects</a>
+                        <a href='#projects_part'>Projects</a>
                     </li>
                     <li>
-                        <a href='/'>Contact</a>
+                        <a href='#contact'>Contact</a>
                     </li>
                 </ul>
             </div>

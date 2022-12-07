@@ -1,8 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
+.projects {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .projects h3 {
   font-family: "Montserrat", sans-serif;
+  color: #333;
   font-size: 32px;
   text-align: center;
-  margin-top: 20px;
-  color: #333;
+  margin-top: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 650px) {
+  .projects {
+    padding-top: 10px;
+  }
+  .projects h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=projects.css.map */

@@ -3,11 +3,28 @@ $base-color: #333;
 $font: 'Montserrat', sans-serif;
 
 .projects {
+    padding-top: 30px;
+    padding-bottom: 30px;
     h3 {
         font-family: $font;
+        color: $base-color;
         font-size: 32px;
         text-align: center;
-        margin-top: 20px;
-        color: $base-color;
+        margin-top: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:650px) {
+    .projects {
+        padding-top: 10px;
+        h3 {
+            font-family: $font;
+            color: $base-color;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 0;
+        }
     }
 }

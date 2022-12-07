@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
+.footer {
+  background-color: rgb(231, 225, 224);
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer #contact {
+  text-decoration: underline;
+}
+.footer #date {
+  padding-bottom: 5px;
+}
+.footer .info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=footer.css.map */
