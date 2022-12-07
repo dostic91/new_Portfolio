@@ -18,29 +18,47 @@ $font: 'Montserrat', sans-serif;
         flex-direction: row;
         justify-content: space-evenly;
         padding-top: 40px;
+        padding-bottom: 40px;
+        hr {
+            background-color: $base-color;
+            width: 80%;
+            margin: auto;
+            border: .3px solid #A19D9C;
+        }
     }
 
     .aboutMe,
     .education,
     .skills {
-        width: 350px;
+        width: 380px;
         height: 450px;
-        border: 1px solid #333;
-        border-radius: 8px;
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        border-radius: 0 18px 0px 18px;
+        background-color: rgb(200, 194, 193);
         #naslov{
             text-align: center;
             font-size: 24px;
-            padding-top: 20px;
+            padding-top: 40px;
             padding-bottom: 20px;
-            text-decoration: underline;
+            font-weight: 600;
         }
         #text {
-            padding-top: 5px;
-            padding-left: 15px;
-            padding-right: 15px;
-            text-align: center;
+            padding-top: 25px;
+            padding-left: 35px;
+            padding-right: 35px;
+            text-align: start;
             font-size: 18px;
+        }
+        &:hover {
+            cursor: pointer;
+            background-color: #b3b0af;
+        }
+        
+    }
+
+    .skills {
+        #text {
+            text-align: center;
+            line-height: 30px;
         }
     }
 }
@@ -59,12 +77,11 @@ $font: 'Montserrat', sans-serif;
         .aboutMe,
     .education,
     .skills {
-        width: 300px;
-        height: 400px;
-        border: 1px solid #333;
-        border-radius: 8px;
+        width: 75%;
+        height: fit-content;
+        border-radius: 0 18px 0px 18px;
+        margin: auto;
         margin-top: 20px;
-        margin-left: 20%;
         p {
             padding-top: 15px;
             text-align: center;
@@ -73,29 +90,60 @@ $font: 'Montserrat', sans-serif;
    }
 }
 
-@media screen and (min-width: 651px) and (max-width: 1024px) {
+@media screen and (min-width: 651px) and (max-width: 900px) {
     .about {
          h3{
              font-size: 32px;
              padding-top: 10px;
          }
          .about_fields {
-             display: flex;
-             flex-direction: row;
-             padding-top: 10px;
-         }
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+        }
          .aboutMe,
      .education,
      .skills {
-         width: 200px;
-         height: 500px;
-         border: 1px solid #333;
-         border-radius: 8px;
+         width: 70%;
+         height: fit-content;
+         min-height: 400px;
+         border-radius: 0 18px 0px 18px;
+         margin: auto;
          margin-top: 20px;
          p {
              padding-top: 15px;
              text-align: center;
          }
      }
+    }
+ }
+
+ @media screen and (min-width:900px) and (max-width:1200px) {
+    .about {
+        .aboutMe,
+        .education,
+        .skills {
+     width: 25%;
+     height: fit-content;
+     min-height: 500px;
+     border-radius: 0 18px 0px 18px;
+     margin: auto;
+     margin-top: 20px;
+        }
+    } 
+ }
+
+ @media screen and (min-width:1200px) {
+        .about {
+            .aboutMe,
+            .education,
+            .skills {
+         width: 25%;
+         height: fit-content;
+         min-height: 500px;
+         border-radius: 0 18px 0px 18px;
+         margin: auto;
+         margin-top: 20px;
+        }
     }
  }

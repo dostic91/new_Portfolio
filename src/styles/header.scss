@@ -25,8 +25,8 @@ $font: 'Montserrat', sans-serif;
             margin: 25px 20px;
             &:hover {
                 border: 1px solid $base-color;
-                border-radius: 8px;
-                padding: 10px;
+                border-radius: 0 8px 0 8px;
+                padding: 8px;
             }
             a {
                 text-decoration: none;

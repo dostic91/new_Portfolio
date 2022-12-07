@@ -8,10 +8,11 @@
   margin-top: 10px;
 }
 .footer #contact {
-  text-decoration: underline;
+  padding-top: 20px;
+  font-weight: 600;
 }
 .footer #date {
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 .footer .info {
   padding-top: 10px;

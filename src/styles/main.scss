@@ -48,12 +48,12 @@ $font: 'Montserrat', sans-serif;
 @media screen and (min-width: 375px) and (max-width: 650px) {
     .center{
         .text{
-            margin-left: 10px;
+            margin-left: 20px;
             #name{
-                font-size: 32px;
+                font-size: 48px;
             }
             #job{
-                font-size: 24px;
+                font-size: 32px;
             }
         }
     }
@@ -64,7 +64,7 @@ $font: 'Montserrat', sans-serif;
         .text{
             margin-left: 20px;
             #name{
-                font-size: 48px;
+                font-size: 60px;
             }
             #job{
                 font-size: 32px;

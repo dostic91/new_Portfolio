@@ -7,14 +7,14 @@ const About = () => {
             <h3>About Me</h3>
             <div className="about_fields">
                 <div className="aboutMe">
-                    <p id="naslov">About Me</p>
+                    <p id="naslov">About Me</p><hr></hr>
                     <p id="text">Software development enthusiast with a good understanding of technical concepts and knowledge of
-                        popular programming languages. Now looking for the right opportunity to bring my skills to a dynamic IT
+                        popular programming languages.<br></br><br></br> Now looking for the right opportunity to bring my skills to a dynamic IT
                         software company in a software development position.
                     </p>
                 </div>
                 <div className="education">
-                    <p id="naslov">Education</p>
+                    <p id="naslov">Education</p><hr></hr>
                     <p id="text">
                         -Electrotecnical High School
                             Mihajlo Pupin, Novi Sad
@@ -33,7 +33,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="skills">
-                    <p id="naslov">Skills</p>
+                    <p id="naslov">Skills</p><hr></hr>
                     <p id="text">
                         HTML 5<br></br>
                         CSS<br></br>
