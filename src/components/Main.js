@@ -16,7 +16,7 @@ const Main = () => {
             <a href="https://www.github.com/dostic91" target={'_blank'}>
             <FaGithub size={40} style={{color: '#333'}} /> 
             </a>
-            <a href="/" target={'_blank'}>
+            <a href="https://drive.google.com/file/d/1cYviQCiVGGBSL5qr_FAATSNf7cURhbzk/view?usp=sharing" target={'_blank'}>
                 <FaFile size={40} style={{color: '#333'}}  />
             </a>
         </div>

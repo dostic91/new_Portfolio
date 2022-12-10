@@ -46,12 +46,20 @@
     left: -100%;
   }
   .nav-menu.active {
-    left: 40%;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    left: 0;
     transition: 0.5s ease-in;
+    background-color: grey;
+    z-index: 999;
   }
   .nav-menu.active ul {
     display: flex;
     flex-direction: column;
+  }
+  .nav-menu.active ul li a {
+    color: #fff;
   }
 }
 @media screen and (min-width: 650px) {
